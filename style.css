@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive
+}
+
+
+
+header {
+    height:120px;
+    width:100%;
+    left: 0;
+    right:0;
+    top: 0;    
+    background-color: Teal;
+}
+
+nav {
+    height:50px;
+    width:100%;
+    left: 0;
+    right: 0;    
+    background-color: #3d3d3d;       
+}
+content {
+    width:100%;
+}
+.main {
+    width:70%;
+    float:left;
+    background-color: RED;
+}
+
+aside {
+    width:30%;
+    background-color: #E7E7E7;
+    float:left;
+}
+
+footer {
+    height:100px;
+    width:100%;
+    left: 0;
+    right:0;
+    bottom: 0;    
+    background-color: Teal;
+}
