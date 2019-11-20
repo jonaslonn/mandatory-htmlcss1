@@ -1,5 +1,8 @@
-body {
+
+body, html {
     margin: 0;
+    min-height:100%;
+    height:100%;
 }
 
 p {
@@ -8,19 +11,29 @@ p {
     padding:0;
 }
 
-h1 {
-    font-family: 'Bebas Neue', cursive
-}
 
+.content {
+    width:880px;
+    margin: 0 auto;
+}
 
 
 header {
     height:120px;
+    padding:10px;
+    box-sizing: border-box;
+    line-height: 40px;
     width:100%;
     left: 0;
     right:0;
-    top: 0;    
-    background-color: Teal;
+    top: 0; 
+    background-image: linear-gradient(to right, #39c8db , #1195a7);     
+}
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+    font-size: 6vh;
 }
 
 nav {
@@ -28,28 +41,77 @@ nav {
     width:100%;
     left: 0;
     right: 0;    
-    background-color: #3d3d3d;       
+    background-color: #3d3d3d;  
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #3f3f3f, #212222); 
+    margin-bottom:20px;
 }
-content {
-    width:100%;
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav li {
+    display: block;
+    background-color: #494949;
+    border: solid 1px #575656;
+    height:100%;
+    padding: 10px 20px 10px 20px;
+    margin: 1px 1px 1px 0px;
+    box-sizing: border-box;
+    float:left;
+
+    line-height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size:22px;
+    color: #FFFFFF;
+    border-bottom: 4px solid #39c8db;
 }
+
+nav li:hover {
+    background-color: #666666;
+    border-bottom: 4px solid #e1f010;
+    color : #e1f010;
+}
+
+nav li .fas:hover, nav li .far:hover {
+    color : #e1f010;
+}
+
 .main {
     width:70%;
     float:left;
-    background-color: RED;
 }
 
 aside {
     width:30%;
     background-color: #E7E7E7;
     float:left;
+    border-radius:5px;
+    padding:10px;
+    box-sizing: border-box;
 }
 
 footer {
-    height:100px;
+    height:200px;
     width:100%;
     left: 0;
     right:0;
     bottom: 0;    
     background-color: Teal;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #39c8db , #129daf); 
+    border-top: 2px solid #129daf;
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;
+    color:#FFFFFF;
+}
+
+.footerCols {
+    width:33%;
+    float:left;
+    box-sizing: border-box;
 }
