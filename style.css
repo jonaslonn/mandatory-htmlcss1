@@ -11,6 +11,14 @@ p {
     padding:0;
 }
 
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: 0b6774;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin:0;
+    padding:0px;    
+}
 
 .content {
     width:880px;
@@ -19,21 +27,50 @@ p {
 
 
 header {
-    height:120px;
-    padding:10px;
-    box-sizing: border-box;
-    line-height: 40px;
+    box-sizing: border-box;    
     width:100%;
     left: 0;
     right:0;
     top: 0; 
-    background-image: linear-gradient(to right, #39c8db , #1195a7);     
+    display:flex;
+    align-items:center;
+    background: linear-gradient(to bottom, rgba(2, 127, 131, 0),
+    rgb(9, 156, 175)), url(img/bg.jpg);   
+}
+
+.headerTitle {
+    box-sizing: border-box;
+    padding:20px 0 0 0;
+    margin:0px;
+}
+
+.headerInfo {
+    letter-spacing: 2px;
+    font-family: 'Abel', sans-serif;
+    color:#FFFFFF;
+    text-shadow:
+    1px 1px 0 #2d2d2d,
+    2px 2px 0 #2d2d2d,
+    0px 0px 5px #000000;
+
+    
+    padding:0 0 20px 0;
+    box-sizing: border-box;
 }
 
 header h1 {
     font-family: 'Bebas Neue', cursive;
-    color: #FFFFFF;
-    font-size: 6vh;
+    color: rgb(33, 247, 200);
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin:0;
+    padding:0px;
+
+    text-shadow:    
+    1px 1px 0 #2d2d2d,
+    2px 2px 0 #2d2d2d,
+    0px 0px 5px #000000;
+    
 }
 
 nav {
@@ -62,12 +99,12 @@ nav li {
     margin: 1px 1px 1px 0px;
     box-sizing: border-box;
     float:left;
-
     line-height: 30px;
     font-family: 'Bebas Neue', cursive;
     font-size:22px;
     color: #FFFFFF;
     border-bottom: 4px solid #39c8db;
+    transition: 0.9s ease;
 }
 
 nav li:hover {
@@ -89,29 +126,52 @@ aside {
     width:30%;
     background-color: #E7E7E7;
     float:left;
-    border-radius:5px;
-    padding:10px;
+    border-radius:10px;
+    padding:25px;
     box-sizing: border-box;
 }
 
 footer {
-    height:200px;
-    width:100%;
-    left: 0;
+    height:240px;
+    left:0;
     right:0;
-    bottom: 0;    
-    background-color: Teal;
+    bottom:0;    
+    width:100%;  
     padding: 10px;
     box-sizing: border-box;
-    background-image: linear-gradient(to right, #39c8db , #129daf); 
+    background-image: linear-gradient(to bottom, #39c8db , #0b6774); 
     border-top: 2px solid #129daf;
     margin-top: 20px;
     font-family: 'Abel', sans-serif;
     color:#FFFFFF;
+    text-shadow: 1px 1px 0 #094f58;
 }
+
+footer hr {    
+    height: 1px;
+    color: #4ce1f5;
+    background-color: #0b6774;
+}
+
+footer h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFF00;
+    font-size: 18px;
+    margin:0;
+    padding:0px;    
+}
+
 
 .footerCols {
     width:33%;
     float:left;
+    padding:20px 20px 20px 0px;
     box-sizing: border-box;
+}
+
+footer .fa, footer .fas, footer .fab, footer .far {
+    color:#19525a;
+    font-size:17px;
+    margin:5px;
+    text-shadow: 1px 1px 0 #39c8db;
 }
