@@ -13,11 +13,15 @@ p {
 
 h2 {
     font-family: 'Bebas Neue', cursive;
-    color: 0b6774;
+    color: #0b6774;
     font-size: 24px;
-    letter-spacing: 3px;
     margin:0;
     padding:0px;    
+}
+
+.h2tag {
+    display:box;
+    color: #39c8db;
 }
 
 .content {
@@ -35,7 +39,7 @@ header {
     display:flex;
     align-items:center;
     background: linear-gradient(to bottom, rgba(2, 127, 131, 0),
-    rgb(9, 156, 175)), url(img/bg.jpg);   
+    rgb(9, 156, 175)), url(img/25.jpg);   
 }
 
 .headerTitle {
@@ -95,11 +99,11 @@ nav li {
     background-color: #494949;
     border: solid 1px #575656;
     height:100%;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 30px 10px 30px;
     margin: 1px 1px 1px 0px;
     box-sizing: border-box;
     float:left;
-    line-height: 30px;
+    line-height: 10px;
     font-family: 'Bebas Neue', cursive;
     font-size:22px;
     color: #FFFFFF;
@@ -118,18 +122,54 @@ nav li .fas:hover, nav li .far:hover {
 }
 
 .main {
-    width:70%;
+    width:60%;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
     float:left;
 }
 
+article {
+    background: #E7E7E7;
+    padding:10px;
+    width:100%;
+    box-sizing: border-box;
+    border-radius:10px;
+}
+
+section {
+    background: #FFFFFF;
+    padding:15px;
+    width:100%;
+    box-sizing: border-box;
+}
+.sectionHeader {
+    margin: 0 auto;
+    background-color: #494949;
+    padding: 10px 10px 10px 15px;
+    width: calc(100% - 34px);
+    border: 4px solid #FFFFFF;
+    border-bottom: 4px solid #39c8db;
+    font-family: 'Bebas Neue', cursive;
+    font-size:22px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
 aside {
-    width:30%;
+    width:40%;
     background-color: #E7E7E7;
     float:left;
     border-radius:10px;
     padding:25px;
     box-sizing: border-box;
 }
+
+aside hr {    
+    height: 1px;
+    color: #FFFFFF;
+    background-color: #747272;
+}
+
 
 footer {
     height:240px;
@@ -159,6 +199,7 @@ footer h2 {
     font-size: 18px;
     margin:0;
     padding:0px;    
+    letter-spacing: 1.5px;
 }
 
 
