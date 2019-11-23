@@ -1,11 +1,10 @@
 <?php
-    if(isset($_GET['id']))
+    if(!isset($id))
     {
-        $id = $_GET['id'];
-    }
-    else {
         $id = 1;
     }
+
+    $title = "Välkommen!";
 ?>
 <html lang="en">
     <head>
@@ -15,7 +14,7 @@
         <link href="style.css" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Abel|Bebas+Neue&display=swap" rel="stylesheet">  
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <title>EC-UTBILDARNA / Helsingborg / Jonas / Hem</title>
+        <title>EC-UTBILDARNA / Helsingborg / Jonas / <?php $title; ?></title>
     </head>
 <body>
 
@@ -40,7 +39,7 @@
                     }
                     else 
                     {
-                        echo "<li><i class=\"fas fa-home\" style=\"color: #39c8db\"></i> &nbsp; Hem</li>";
+                        echo "<a href=\"index.php\"><li><i class=\"fas fa-home\" style=\"color: #39c8db\"></i> &nbsp; Hem</li></a>";
                     }
 
                     if($id == 2)
@@ -49,7 +48,7 @@
                     }
                     else 
                     {
-                        echo "<li><i class=\"fas fa-user-circle\" style=\"color: #39c8db\"></i> &nbsp; Om</li>";
+                        echo "<a href=\"om.php\"><li><i class=\"fas fa-user-circle\" style=\"color: #39c8db\"></i> &nbsp; Om</li></a>";
                     }
 
                     if($id == 3)
