@@ -4,7 +4,7 @@ $title = "Om ...";
 include("header.php"); 
 ?>
 
-        <div class="main">
+        <div class="main" style="width:70%;">
             <h2>Vem är Jonas?</h2>
             <p>
             Hej och välkommen till min hemsida för EC-Utbildarna!<br>
@@ -28,16 +28,17 @@ include("header.php");
             </p>
 
         </div>
-        <aside>
+        <aside style="width:30%;">
         <img src="img/about.jpg" alt="Jonas Lönn" style="width:100%;box-sizing: border-box;padding:8px;border: solid 5px white;background-color:#FFFFFF;border-radius:4px;margin-bottom:20px;">
         <br>
-                <h2>Bekväm i ..</h2>                
+                <h2>Bekväm med ..</h2>                
                     <ul>
-                        <li> <p>HTML & CSS för frontend.</p>
-                        <li> <p>PHP för backend. </p>
+                        <li> <p>HTML & CSS</p>
+                        <li> <p>PHP</p>
+                        <li> <p>MySQL</p>
                     </ul>      
 
-                <h2>Anser mig vara mindre bra i  ..</h2>                
+                <h2>Mindre bra på  ..</h2>                
                     <ul>
                         <li> <p>Javascript</p>
                         <li> <p>jQuery</p>

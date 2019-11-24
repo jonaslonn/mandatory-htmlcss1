@@ -1,4 +1,8 @@
-<?php include("header.php"); ?>
+<?php
+$id = 1;
+$title = "Välkommen";
+include("header.php"); 
+?>
 
         <div class="main">
 

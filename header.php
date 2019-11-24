@@ -3,8 +3,6 @@
     {
         $id = 1;
     }
-
-    $title = "Välkommen!";
 ?>
 <html lang="en">
     <head>
@@ -14,7 +12,7 @@
         <link href="style.css" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Abel|Bebas+Neue&display=swap" rel="stylesheet">  
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <title>EC-UTBILDARNA / Helsingborg / Jonas / <?php $title; ?></title>
+        <title>EC-UTBILDARNA / Helsingborg / Jonas / <?php echo $title; ?></title>
     </head>
 <body>
 
@@ -48,7 +46,7 @@
                     }
                     else 
                     {
-                        echo "<a href=\"om.php\"><li><i class=\"fas fa-user-circle\" style=\"color: #39c8db\"></i> &nbsp; Om</li></a>";
+                        echo "<a href=\"about.php\"><li><i class=\"fas fa-user-circle\" style=\"color: #39c8db\"></i> &nbsp; Om</li></a>";
                     }
 
                     if($id == 3)
@@ -57,7 +55,7 @@
                     }
                     else 
                     {
-                        echo "<li><i class=\"fas fa-book-dead\" style=\"color: #39c8db\"></i> &nbsp; Filmer</li>";
+                        echo "<a href=\"movies.php\"><li><i class=\"fas fa-book-dead\" style=\"color: #39c8db\"></i> &nbsp; Filmer</li></a>";
                     }
 
                     if($id == 4)
@@ -66,7 +64,7 @@
                     }
                     else 
                     {
-                        echo "<li><i class=\"fas fa-link\" style=\"color: #39c8db\"></i> &nbsp; Länkar</li>";
+                        echo "<a href=\"links.php\"><li><i class=\"fas fa-link\" style=\"color: #39c8db\"></i> &nbsp; Länkar</li></a>";
                     }
 
                     if($id == 5)
@@ -75,7 +73,7 @@
                     }
                     else 
                     {
-                        echo "<li><i class=\"far fa-address-card\" style=\"color: #39c8db\"></i> &nbsp; Kontakt</li>";
+                        echo "<a href=\"contact.php\"><li><i class=\"far fa-address-card\" style=\"color: #39c8db\"></i> &nbsp; Kontakt</li></a>";
                     }
 
 

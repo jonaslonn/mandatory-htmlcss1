@@ -1,6 +1,7 @@
 
 body, html {
     margin: 0;
+    width:100%;
     min-height:100%;
     height:100%;
 }
@@ -137,9 +138,9 @@ nav li:hover {
 }
 
 nav li.off {
-    background-image: linear-gradient(to top, #535353, #868686); 
+    background-image: linear-gradient(to top, #868686, #E7E7E7); 
     color: #3d3d3d;
-    border-bottom: 4px solid #98f795;
+    border-bottom: 4px solid rgb(33, 247, 200);
 }
 
 
@@ -190,6 +191,17 @@ aside {
     border-radius:10px;
     padding:25px;
     box-sizing: border-box;
+}
+
+aside .fab, aside .far, aside .fas, aside .fa {
+    font-size: 48px;
+    color:#575757;
+    margin: 12px;
+    box-sizing: border-box;    
+}
+
+aside .fab:hover, aside .far:hover, aside .fas:hover, aside .fa:hover {
+    color:#39c8db;  
 }
 
 
