@@ -5,11 +5,13 @@ include("header.php");
 ?>
 
         <div class="main" style="width:70%;">
-            <h2>Kontakta Jonas</h2><br>
     
             <form method="post" action="contact.php">
                 <fieldset>
-                <legend>Fyll i forumläret för återkoppling</legend>
+                <legend>Kontakta Jonas</legend>
+                    
+                    <p>Fyll i formuläret nedan och klicka på skicka för att komma i kontakt med mig!</p>
+                    <br><br>
                     <div>
                         <p><label for="name">Namn:</label></p>
                         <input type="text" name="name" id="name" placeholder="För och efternamn" required>
@@ -28,12 +30,15 @@ include("header.php");
                         </select>
                     </div>
                     <div>
+                        <br>
                         <p><label for="information">Beskriv ditt ärende:</label></p>
                         <textarea name="information" id="information" placeholder="Beskriv ditt ärende här" required>
                         </textarea>
                     </div>
                     <div>
-                        <input type="submit" name="submit" id="submit" value="Skicka formulär">
+                        <div style="float:right;">
+                            <input type="submit" name="submit" id="submit" value="Skicka formulär">
+                        </div>
                     </div>
                 </fieldset>
             </form>   

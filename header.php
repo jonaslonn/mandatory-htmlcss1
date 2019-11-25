@@ -33,7 +33,7 @@
                     <?php                    
                     if($id == 1)
                     { 
-                        echo "<li class=\"off\"><i class=\"fas fa-home\" style=\"color: #39c8db\"></i> &nbsp; Hem</li>";
+                        echo "<li class=\"off\"><i class=\"fas fa-home\" style=\"color: #3d3d3d\"></i> &nbsp; Hem</li>";
                     }
                     else 
                     {
@@ -42,7 +42,7 @@
 
                     if($id == 2)
                     { 
-                        echo "<li class=\"off\"><i class=\"fas fa-user-circle\" style=\"color: #39c8db\"></i> &nbsp; Om</li>";
+                        echo "<li class=\"off\"><i class=\"fas fa-user-circle\" style=\"color: #3d3d3d\"></i> &nbsp; Om</li>";
                     }
                     else 
                     {
@@ -51,7 +51,7 @@
 
                     if($id == 3)
                     { 
-                        echo "<li class=\"off\"><i class=\"fas fa-book-dead\" style=\"color: #39c8db\"></i> &nbsp; Filmer</li>";
+                        echo "<li class=\"off\"><i class=\"fas fa-book-dead\" style=\"color: #3d3d3d\"></i> &nbsp; Filmer</li>";
                     }
                     else 
                     {
@@ -60,7 +60,7 @@
 
                     if($id == 4)
                     { 
-                        echo "<li class=\"off\"><i class=\"fas fa-link\" style=\"color: #39c8db\"></i> &nbsp; Länkar</li>";
+                        echo "<li class=\"off\"><i class=\"fas fa-link\" style=\"color: #3d3d3d\"></i> &nbsp; Länkar</li>";
                     }
                     else 
                     {
@@ -69,7 +69,7 @@
 
                     if($id == 5)
                     { 
-                        echo "<li class=\"off\"><i class=\"far fa-address-card\" style=\"color: #39c8db\"></i> &nbsp; Kontakt</li>";
+                        echo "<li class=\"off\"><i class=\"far fa-address-card\" style=\"color: #3d3d3d\"></i> &nbsp; Kontakt</li>";
                     }
                     else 
                     {

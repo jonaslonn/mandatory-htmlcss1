@@ -25,6 +25,98 @@ h2 {
     color: #39c8db;
 }
 
+.movies {
+    float:left;
+    padding:15px;
+    width:220px;
+    box-sizing: border-box;
+}
+
+.movieInfo {
+    box-sizing: border-box;
+    width:100%;
+    background-color:#FFFFFF;
+    padding:10px;
+    border-radius: 2px;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+
+.movieInfo img {
+    width:100%;
+    margin-bottom:4px;
+}
+
+	fieldset {
+        padding: 15px;
+        background:#E7E7E7;
+        color:#3d3d3d;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom:20px;
+      }	
+      
+
+      legend {
+        font-family: 'Bebas Neue', cursive;
+        color: #0b6774;
+        font-size: 24px;
+      }
+  
+
+      label {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+        color:#3d3d3d;
+      }
+  
+
+      input[type="text"], input[type="email"], input[type="number"], input[type="password"], input[list], textarea {
+        padding: 15px;
+        background:#FFFFFF;
+        color:#3d3d3d;
+        border: 1px solid #80b0ff;
+        border-radius: 4px;
+        box-sizing:border-box;
+        margin-bottom:20px;
+        margin-top:5px;
+        width:100%;
+      }
+  
+      input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[list]:hover, textarea:hover {
+        background-color: #e6efff;
+        border: 1px solid #1a71ff;
+        transition: 1.6s;
+      }
+      
+      select {
+        padding: 15px;
+        border: thin #FFF solid;
+        background:#FFFFFF;
+        color:#3d3d3d;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        border-bottom: 4px solid #80b0ff;
+        width:100%;
+      }
+
+      input[type="submit"] {
+        padding: 15px 30px 15px 30px;
+        border: thin #FFF solid;
+        color:#FFFFFF;
+        font-weight: bold;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background-color: #80b0ff; 
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #4d91ff; 
+        transition: 1.6s; 
+      }
+
 .content {
     width:880px;
     margin: 0 auto;
@@ -196,8 +288,9 @@ aside {
 aside .fab, aside .far, aside .fas, aside .fa {
     font-size: 48px;
     color:#575757;
-    margin: 12px;
-    box-sizing: border-box;    
+    margin: 8px;
+    box-sizing: border-box;
+    transition: 0.9s ease;  
 }
 
 aside .fab:hover, aside .far:hover, aside .fas:hover, aside .fa:hover {

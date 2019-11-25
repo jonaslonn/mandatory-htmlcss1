@@ -8,8 +8,8 @@ include("header.php");
 
             <h2>Bra Resurser</h2>                
             <ul>
-                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>dfdsfsdf</em></p><br>
-                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>dfdsfsdf</em></p><br>
+                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>Favoritresursen för information om olika språk.</em></p><br>
+                <li> <p><a href="https://www.freecodecamp.org/" target="_blank">https://www.w3schools.com</a><br><em>Bra sida att träna på.</em></p><br>
             </ul> 
 
             <h2>Något annat</h2>                
