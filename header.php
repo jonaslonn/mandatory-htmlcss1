@@ -18,7 +18,7 @@
 
     <header>
         <div class="content">
-            <div style="float:left;padding:15px;"><img src="img/about.jpg" alt="Jonas"></div>
+            <div class="headerImage"><img src="img/about.jpg" alt="Jonas"></div>
             <div class="headerTitle">
                 <h1><span style="color:#FFFF00">{</span> Jonas Lönn <span style="color:#FFFF00">}</span></h1>                
             </div>
@@ -81,5 +81,4 @@
                 </ul>   
             </div>
         </nav>
-
-    <div class="content">
+    <div class="mainContent">

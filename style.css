@@ -25,10 +25,14 @@ h2 {
     color: #39c8db;
 }
 
+.clearFix {
+    clear:both;
+}
+
 .movies {
     float:left;
     padding:15px;
-    width:220px;
+    width:25%;
     box-sizing: border-box;
 }
 
@@ -122,8 +126,14 @@ h2 {
     margin: 0 auto;
 }
 
+.mainContent {
+    width:880px;
+    margin: 0 auto;
+}
+
 
 header {
+    padding-top:10px;
     box-sizing: border-box;    
     width:100%;
     left: 0;
@@ -133,6 +143,11 @@ header {
     align-items:center;
     background: linear-gradient(to bottom, rgba(2, 127, 131, 0),
     rgb(9, 156, 175)), url(img/25.jpg);   
+}
+
+.headerImage {
+    float:left;
+    padding:20px 35px 25px 0px;
 }
 
 header img {
@@ -206,7 +221,7 @@ nav ul {
   }
 
 nav li {
-    display: block;
+    
     background-color: #494949;
     border: solid 1px #575656;
     height:100%;
@@ -286,7 +301,7 @@ aside {
 }
 
 aside .fab, aside .far, aside .fas, aside .fa {
-    font-size: 48px;
+    font-size: 55px;
     color:#575757;
     margin: 8px;
     box-sizing: border-box;
@@ -306,7 +321,6 @@ aside hr {
 
 
 footer {
-    height:300px;
     left:0;
     right:0;
     bottom:0;    
@@ -317,7 +331,8 @@ footer {
     border-top: 2px solid #129daf;
     margin-top: 20px;
     font-family: 'Abel', sans-serif;
-    color:#FFFFFF    
+    color:#FFFFFF;
+    display:inline-block;    
 }
 
 footer table, footer p {
@@ -353,4 +368,58 @@ footer .fa, footer .fas, footer .fab, footer .far {
     font-size:17px;
     margin:5px;
     text-shadow: 1px 1px 0 #39c8db;
+}
+
+footer .fa:hover, footer .fas:hover, footer .fab:hover, footer .far:hover,
+a:hover {
+    color:white;  
+    transition: 1s ease;
+}
+
+@media screen and (max-width: 800px) {
+
+    header img, .headerImage {
+        display:none;
+    }
+
+    header, .headerTitle, .headerTitle, nav, .content, nav ul, li, nav li, nav li.off, .main, aside, section, article, footer, .footerCols
+    {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin:0;
+    }
+
+    .main {
+        padding:10px;        
+    }
+
+    .mainContent {
+        margin-top: 170px;
+        width: 100%;
+        float: left;
+    }
+
+    .movies {
+        width:100%;
+    }
+
+    .sectionHeader {
+        display: inline-block;
+    }
+    
+    aside {
+        margin-top:20px;
+        margin-bottom:20px;   
+    }
+
+    header, .headerTitle, .headerInfo {
+        text-align: center;
+    }
+
+    .footerCols {
+        padding:5px;
+        margin-bottom: 10px;
+    }
+
 }

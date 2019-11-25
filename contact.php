@@ -4,7 +4,7 @@ $title = "Kontakta";
 include("header.php"); 
 ?>
 
-        <div class="main" style="width:70%;">
+        <div class="main">
     
             <form method="post" action="contact.php">
                 <fieldset>
@@ -45,7 +45,7 @@ include("header.php");
         
 
         </div>
-        <aside style="width:30%;">
+        <aside>
         <img src="img/about.jpg" alt="Jonas Lönn" style="width:100%;box-sizing: border-box;padding:8px;border: solid 5px white;background-color:#FFFFFF;border-radius:4px;margin-bottom:20px;">
         <br>
                 <h2>Om mig</h2>                

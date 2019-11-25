@@ -4,7 +4,7 @@ $title = "Om ...";
 include("header.php"); 
 ?>
 
-        <div class="main" style="width:70%;">
+        <div class="main">
             <h2>Vem är Jonas?</h2>
             <p>
             Hej och välkommen till min hemsida för EC-Utbildarna!<br>
@@ -23,12 +23,10 @@ include("header.php");
             Etersom jag alltid har tyckt att det varit kul att arbeta med hemsidor så har jag nu övergett yrket jag varit verskam i under 20år, med en gedigen utbildning 
             så kommer jag få med mig mycket ny kunskap och förhoppningsvis bra betyg som kommer ge mig möjligheten att komma in i en bransch som kommer förgylla mina dagar 
             då jag får spendera dem med ett intresse som ligger mig varmt om hjärtat! 
-
-
             </p>
 
         </div>
-        <aside style="width:30%;">
+        <aside>
         <img src="img/about.jpg" alt="Jonas Lönn" style="width:100%;box-sizing: border-box;padding:8px;border: solid 5px white;background-color:#FFFFFF;border-radius:4px;margin-bottom:20px;">
         <br>
                 <h2>Bekväm med ..</h2>                

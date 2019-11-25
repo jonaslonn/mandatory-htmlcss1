@@ -4,6 +4,8 @@ $title = "Favoritfilmer";
 include("header.php"); 
 ?>
 
+<div class="main" style="width:100%;padding:10px;box-sizing:border-box;">
+
             <h2>Mina favoritfilmer</h2>
             
             <div class="movies">
@@ -57,7 +59,35 @@ include("header.php");
                 </div>          
             </div>
 
+            
+            <div class="movies">
+                <div class="movieInfo">
+                    <img src="img/movie.jpg">
+                    <p>Frost</p>
+                </div>          
+            </div>
+            <div class="movies">
+                <div class="movieInfo">
+                    <img src="img/movie.jpg">
+                    <p>Kevin Bacon</p>
+                </div>          
+            </div>
+            <div class="movies">
+                <div class="movieInfo">
+                    <img src="img/movie.jpg">
+                    <p>WaterWorld</p>
+                </div>          
+            </div>
+            <div class="movies">
+                <div class="movieInfo">
+                    <img src="img/movie.jpg">
+                    <p>Fädbojäntan</p>
+                </div>          
+            </div>
+
 
             <div style="clear:both;"></div>
-        
+
+</div>
+   
  <?php include("footer.php"); ?>

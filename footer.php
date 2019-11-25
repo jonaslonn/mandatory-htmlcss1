@@ -1,5 +1,4 @@
    </div>
-
     <footer>
         <div class="content">
             <div class="footerCols">
@@ -54,10 +53,10 @@
                 <h2>Jonas på sociala medier:</h2>
                 <hr>    
 
-                <i class='fab fa-facebook-square' style='font-size:28px;'></i>
-                <i class='fab fa-instagram' style='font-size:28px;'></i>
-                <i class='fab fa-linkedin' style='font-size:28px;'></i>  
-                <i class='fab fa-snapchat-square' style='font-size:28px;'></i>   
+                <a href="om.php"><i class='fab fa-facebook-square' style='font-size:28px;'></i></a>
+                <a href="om.php"><i class='fab fa-instagram' style='font-size:28px;'></i></a>
+                <a href="om.php"><i class='fab fa-linkedin' style='font-size:28px;'></i></a>
+                <a href="om.php"><i class='fab fa-snapchat-square' style='font-size:28px;'></i>  </a> 
                 
                 <br><br><br>
                 <h2>Hemsidan:</h2>
