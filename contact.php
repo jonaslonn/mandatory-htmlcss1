@@ -46,13 +46,25 @@ include("header.php");
 
         </div>
         <aside>
-        <img src="img/about.jpg" alt="Jonas Lönn" style="width:100%;box-sizing: border-box;padding:8px;border: solid 5px white;background-color:#FFFFFF;border-radius:4px;margin-bottom:20px;">
-        <br>
+
+        <div class="movies" style="float:right;width:100px;padding:0 0 10px 10px;">
+            <div class="movieInfo" style="padding:5px;">
+                <a href="about.php"><img src="img/about.jpg"></a>
+            </div>          
+        </div>        
                 <h2>Om mig</h2>                
                 <p>
                 Vill du veta mer om mig?<br>
-                Klicka in dig på undersidan "om" för att ta reda på vem jag är!
-                </p>         
+                Klicka in dig på undersidan "<a href="about.php">om</a>" för att ta reda på vem jag är!
+                </p> 
+                
+                <br><hr><br>
+
+                <h2>FAQ.</h2>                
+                <p>
+                Vanligtvis svarar jag på meddelande via hemsidan inom 5dagar.<br><br>
+                Oseriösa meddelande hamnar i skräpposten.
+                </p>               
         </aside>
 
         <div style="clear:both;"></div>

@@ -11,10 +11,14 @@ include("header.php");
                 <li> <p><a href="https://www.freecodecamp.org/" target="_blank">https://www.freecodecamp.org/</a><br><em>Bra sida att träna på.</em></p><br>
             </ul> 
 
-            <h2>Något annat</h2>                
+            <h2>Fler bra länkar</h2>                
             <ul>
-                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>dfdsfsdf</em></p><br>
-                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>dfdsfsdf</em></p><br>
+                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>Relevant info om länken här..</em></p><br>
+                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>En annan relevant info om länken här..</em></p><br>
+                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>Relevant info om länken här..</em></p><br>
+                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>En annan relevant info om länken här..</em></p><br>
+                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>Relevant info om länken här..</em></p><br>
+                <li> <p><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a><br><em>En annan relevant info om länken här..</em></p>
             </ul>
 
         </div>
