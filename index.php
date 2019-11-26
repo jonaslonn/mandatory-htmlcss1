@@ -17,10 +17,12 @@ include("header.php");
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quis fuga harum id pariatur quia necessitatibus quo maxime tenetur eaque nesciunt obcaecati dignissimos est, voluptatem facilis illo non, veniam perspiciatis!  
                     </p>    
                 </section>
-
+            </article>
+            <article>
                 <div class="sectionHeader">
                 <i class='fas fa-home' style='color: #39c8db'></i> &nbsp; Hemsidan lanserad!
                 </div>
+
                 <section>    
                     <p>
                     Mitt innehåll

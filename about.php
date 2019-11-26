@@ -27,7 +27,7 @@ include("header.php");
 
         </div>
         <aside>
-        <img src="img/about.jpg" alt="Jonas Lönn" style="width:100%;box-sizing: border-box;padding:8px;border: solid 5px white;background-color:#FFFFFF;border-radius:4px;margin-bottom:20px;">
+        <img src="img/about2.jpg" alt="Jonas och Oliver" style="width:100%;box-sizing: border-box;padding:8px;border: solid 5px white;background-color:#FFFFFF;border-radius:4px;margin-bottom:20px;">
         <br>
                 <h2>Bekväm med ..</h2>                
                     <ul>
