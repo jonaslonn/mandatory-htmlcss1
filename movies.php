@@ -4,6 +4,16 @@ $title = "Favoritfilmer";
 include("header.php"); 
 ?>
 
+<style>
+body {
+    background: url('img/movie2b.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+</style>
+
 <div class="main" style="width:100%;padding:10px;box-sizing:border-box;">
 
             <h2>Mina favoritfilmer</h2>
