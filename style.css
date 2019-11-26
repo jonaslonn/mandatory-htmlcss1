@@ -12,6 +12,17 @@ p {
     padding:0;
 }
 
+a:link, a:visited, a:active {
+    color:#298a97;
+    text-decoration: none;
+    transition: 0.9s ease;
+}
+
+a:hover {
+    color:#1b6069;  
+    transition: 1s ease;
+}
+
 h2 {
     font-family: 'Bebas Neue', cursive;
     color: #0b6774;
@@ -370,12 +381,15 @@ footer .fa, footer .fas, footer .fab, footer .far {
     text-shadow: 1px 1px 0 #39c8db;
 }
 
-a:link, a:visited, a:active {
-    color:White;
+footer a:link, footer a:visited, footer a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.9s ease;
 }
 
+
 footer .fa:hover, footer .fas:hover, footer .fab:hover, footer .far:hover,
-a:hover {
+footer a:hover {
     color:yellow;  
     transition: 1s ease;
 }
