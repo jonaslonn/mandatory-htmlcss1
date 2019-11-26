@@ -370,9 +370,13 @@ footer .fa, footer .fas, footer .fab, footer .far {
     text-shadow: 1px 1px 0 #39c8db;
 }
 
+a:link, a:visited, a:active {
+    color:White;
+}
+
 footer .fa:hover, footer .fas:hover, footer .fab:hover, footer .far:hover,
 a:hover {
-    color:white;  
+    color:yellow;  
     transition: 1s ease;
 }
 

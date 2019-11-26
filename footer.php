@@ -29,23 +29,23 @@
                     <table>
                         <tr>
                             <td><i class='fas fa-home'></i></td>
-                            <td> Hem</td>
+                            <td> <a href="index.php">Hem</a></td>
                         </tr>
                         <tr>
                             <td><i class='fas fa-user-circle'></i></td>
-                            <td> Om</td>
+                            <td> <a href="about.php">Om</a></td>
                         </tr>
                         <tr>
                             <td><i class='fas fa-book-dead'></i></td>
-                            <td >Filmer</td>
+                            <td> <a href="movies.php">Filmer</a></td>
                         </tr>
                         <tr>
                             <td><i class='fas fa-link'></i></td>
-                            <td> Länkar</td>
+                            <td> <a href="links.php">Länkar</a></td>
                         </tr>
                         <tr>
                             <td><i class='far fa-address-card'></i></td>
-                            <td> Kontakt</td>
+                            <td> <a href="contact.php">Kontakt</a></td>
                          </tr>
                     </table>
             </div>
