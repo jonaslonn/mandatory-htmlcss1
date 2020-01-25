@@ -9,3 +9,7 @@ Webbdevelopment with HTML and CSS, assignment 1.
 
 Training for HTML standards.(Header, sidebar, footer and so on)
 Added CSS for some sweet effects and mediascreen to make the site fit to smaller screens.
+
+## Visit the page
+
+https://jonas.win19.net
